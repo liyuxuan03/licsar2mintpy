@@ -1,0 +1,60 @@
+{
+  "frame_id": "106A_09048_000909",
+  "n_ifg_scanned": 10,
+  "n_ifg_loaded": 10,
+  "n_ifg_kept": 8,
+  "n_ifg_initial_rejected": 0,
+  "n_ifg_loop_rejected": 2,
+  "n_ifg_skipped": 0,
+  "grid": {
+    "length": 1913,
+    "width": 1840,
+    "x_first": -92.4255,
+    "y_first": 0.4871667,
+    "x_step": 0.001,
+    "y_step": -0.001,
+    "x_unit": "degrees",
+    "y_unit": "degrees",
+    "crs_key": "GEOG_DEGREES||||degrees|degrees"
+  },
+  "qa_thresholds": {
+    "min_unw_valid_ratio": 0.05,
+    "min_mean_coherence": 0.05,
+    "unw_zero_eps": 1e-06,
+    "keep_zero_unw_valid": false,
+    "loop_closure_enabled": true,
+    "loop_min_valid_ratio": 0.02,
+    "loop_phase_threshold": 3.141592653589793,
+    "loop_bad_pixel_ratio": 0.15,
+    "loop_rms_threshold": 3.0,
+    "loop_min_tested_loops": 2,
+    "loop_min_bad_loops": 2,
+    "loop_bad_loop_fraction": 0.5,
+    "max_loop_count": 0
+  },
+  "geometry_valid_ratio": 0.12681140480465466,
+  "ifgram_mask_pixel_count": 446366,
+  "ifgram_mask_total_pixel_count": 3519920,
+  "ifgram_mask_valid_ratio": 0.12681140480465466,
+  "metadata_txt": {
+    "master": 20201210,
+    "center_time": "0:26:14.884940",
+    "heading": -12.019061,
+    "avg_incidence_angle": 41.6437,
+    "azimuth_resolution": 14.03433,
+    "range_resolution": 2.329562,
+    "centre_range_m": 901242.4791,
+    "avg_height": 61.851673,
+    "applied_DEM": "TanDEMX_90m",
+    "centre_range_ok_m": 901238.9847
+  },
+  "looks_info": {
+    "ALOOKS": 4,
+    "RLOOKS": 20,
+    "ALOOKS_source": "LiCSAR_default",
+    "RLOOKS_source": "LiCSAR_default",
+    "default_ALOOKS": 4,
+    "default_RLOOKS": 20
+  },
+  "baseline_master_date": "20201210"
+}

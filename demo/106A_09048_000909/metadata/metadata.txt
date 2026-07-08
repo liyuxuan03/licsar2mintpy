@@ -1,0 +1,10 @@
+master=20201210
+center_time=0:26:14.884940
+heading=-12.019061
+avg_incidence_angle=41.6437
+azimuth_resolution=14.034330
+range_resolution=2.329562
+centre_range_m=901242.4791
+avg_height=61.851673
+applied_DEM=TanDEMX_90m
+centre_range_ok_m=901238.9847

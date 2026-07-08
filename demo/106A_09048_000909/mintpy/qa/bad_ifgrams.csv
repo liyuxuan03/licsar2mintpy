@@ -1,0 +1,3 @@
+pair,date1,date2,reject_reason,initial_keep,loop_rejected,valid_unw_ratio,mean_coh_valid_unw,n_tested_loops,n_bad_loops,bad_loop_fraction,worst_loop_rms_rad,worst_loop_bad_pixel_ratio
+20240118_20240130,20240118,20240130,loop_closure_unwrapping_error,True,True,0.954503703239046,0.629159688949585,2,2,1.0,4.506312720800952,0.27743348483366703
+20240130_20240211,20240130,20240211,loop_closure_unwrapping_error,True,True,0.9291567906157727,0.5743882656097412,3,2,0.6666666666666666,4.506312720800952,0.27743348483366703
