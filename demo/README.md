@@ -100,14 +100,6 @@ cd /path/to/demo
 
 ```bash
 python prep_licsar.py \
-  /data/licsar/124/124A_06996_091406 \
-  --outdir /data/licsar/124/124A_06996_091406/mintpy
-```
-
-如果使用本项目中的示例 frame，可运行：
-
-```bash
-python prep_licsar.py \
   106A_09048_000909 \
   --outdir 106A_09048_000909/mintpy
 ```
@@ -204,6 +196,3 @@ mintpy/
 
 闭合环筛查剔除的干涉图记录在 `mintpy/qa/bad_ifgrams.csv` 中。
 
-## GitHub 上传建议
-
-项目中包含 GeoTIFF、HDF5、PDF、KMZ 和 PNG 等结果文件。如果只想发布代码和流程说明，建议不要把大型数据直接提交到 GitHub；如果需要保留示例数据，建议使用 Git LFS 或在 `.gitignore` 中排除不需要版本管理的中间结果。
